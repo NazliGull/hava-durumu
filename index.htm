@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hava Durumu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="stlye.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h6>Hava Durumu</h6>
+        <div class="input">
+          <input type="text" placeholder="Şehir Giriniz" id="searchbar"/>
+        </div>
+      </nav>
+
+      <section>
+        <div class="datebar">
+          <div class="date">
+            <p id="current-date"></p> 
+          </div>
+          <div class="weatherbox">
+            <p class="weather">Parçalı Bulutlu</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <div>
+              <i class="fa-solid fa-droplet"></i>
+              <p class="text " id="humidity">%40 <br>Nem
+                
+              </p>
+             
+            </div>
+            <div>
+              <i class="fa-solid fa-wind"></i>
+              
+              <p class="text" id="wind-speed">2.06 km/h <br>Rüzgar
+              </p>
+            </div>
+            <div>
+              <i class="fa-solid fa-eye"></i>
+              <p class="text" id="visibility">10km <br>Görüş</p>
+              
+            </div>
+           
+          </div>
+          <div class="main">
+            <div class="icon">
+              <i id="icon"  class="fa-solid fa-cloud-sun"></i>
+              <p  class="degree" id="temperature">31.68°C </p>
+              <p class="degreetext" id="city-name">Tokat</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

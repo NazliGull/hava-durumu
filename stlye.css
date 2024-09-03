@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 130px;
+  background-image: url(sunset-4k-pc-hd-download-wallpaper-preview.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  margin: 0;
+  gap: 50px;
+  
+  nav {
+      width: 330px;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.23);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(9px);
+      -webkit-backdrop-filter: blur(9px);
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      h6 {
+          font-size: 40px;
+        }
+        input {
+            margin-top: 10px;
+            background-color: transparent;
+            border-radius: 4px;
+            text-align: center;
+            outline: none;
+            border: 2px solid transparent;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+    }
+    section {
+        width: 400px;
+        height: 330px;
+        background: rgba(255, 255, 255, 0.23);
+        border-radius: 20px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
+        border: 1px solid rgba(255, 255, 255, 0.38);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        .datebar {
+        height: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 150px;
+      font-size: 20px;
+      background: rgba(76, 72, 72, 0.23);
+      border-radius: 20px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(9px);
+      -webkit-backdrop-filter: blur(9px);
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      .date{
+          margin-left: 10px;
+
+      }
+    }
+    .box{
+        width: 100%;
+        display: flex;
+        .icons {
+            color: rgb(221, 223, 225);
+            font-size: 18px;
+            width: 20%;
+            /* height: 100%; */
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 25px;
+            margin-top: 20px;
+            margin-left: 10px;
+            .text {
+                color: black;
+            }
+
+            p{
+                height: 30%;
+            }
+
+        }
+        .main{
+            
+            width: 80%;
+            
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            .icon{
+                .degree{
+                    font-size: 35px;
+                    margin: 30px;
+                }
+                #icon{
+                    color: rgb(221, 223, 225);
+                    font-size: 80px;
+                }
+                .degreetext{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
+}
